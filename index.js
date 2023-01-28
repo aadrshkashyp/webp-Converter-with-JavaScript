@@ -1,3 +1,8 @@
+// Author: Aadarsh Kashyap
+// Email: aadarshkashyap@aol.com
+// License: MIT
+// Website: https://aadarshkashyap.com
+
 const sharp = require("sharp");
 const fs = require("fs");
 
