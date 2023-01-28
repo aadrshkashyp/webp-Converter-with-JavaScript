@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WCWJ - WEBP CONVERTER WITH JAVASCRIPT</title>
+  </head>
+  <body>
+    <img src="images/my-image-1.png" alt="Logo" />
+    <img src="images/my-image-2.png" alt="Hero image" />
+    <script>
+      const images = document.querySelectorAll("img");
+      images.forEach((img) => {
+        let src = img.getAttribute("src");
+        let srcWebP = src.replace(/\.(jpeg|jpg|png)$/, ".webp");
+        img.setAttribute("src", srcWebP);
+      });
+    </script>
+  </body>
+</html>

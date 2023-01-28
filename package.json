@@ -1,0 +1,15 @@
+{
+  "name": "wcwjs",
+  "version": "1.0.0",
+  "description": "This project utilizes the Node.js server and the jimp and fs modules to convert all images on your website to the WebP format. WebP is a newer image format that offers superior compression and faster load times compared to traditional formats such as JPEG and PNG. By converting all images on your website to the WebP format, you can improve the overall user experience and page load times for your visitors.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Aadarsh Kashyap",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sharp": "^0.31.3"
+  }
+}
